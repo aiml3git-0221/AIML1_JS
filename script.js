@@ -1,6 +1,6 @@
 //console.log("hello world");
 //document.write("hello world");
-var num=10;
+/*var num=10;
 console.log(num);
 console.log(typeof(num));
 num=false;
@@ -33,3 +33,27 @@ document.write("a+b+c=");
 result=a+b+c;
 document.write(result);
 document.write(linebreak);
+var a=10;
+var b=20;
+var linebreak="<br/>";
+document.write("(a<b)=>");
+result=(a<b);
+document.write(result);
+document.write(linebreak);
+
+var count;
+document.write("starting loop"+"<br/>");
+for(cout=nt=0;count<10;count++){
+    document.write("current count"+count);
+    document.write("<br\>");
+}
+document.write("loop stopped");*/
+
+const person={
+    fname:"Shivanshi",
+    lname:"Singh",
+    age:25
+};
+for (let x in person){
+    console.log("person details:"+x+":"+person[x])
+}
