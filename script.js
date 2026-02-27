@@ -47,7 +47,7 @@ for(cout=nt=0;count<10;count++){
     document.write("current count"+count);
     document.write("<br\>");
 }
-document.write("loop stopped");*/
+document.write("loop stopped");
 
 const person={
     fname:"Shivanshi",
@@ -55,5 +55,55 @@ const person={
     age:25
 };
 for (let x in person){
-    console.log("person details:"+x+":"+person[x])
+    console.log("person details:"+x+":"+person.x)
 }
+
+var count=0;
+console.log("starting loop");
+while(count<10){
+    console.log("current count:"+count+"<br/>");
+    count++;
+}
+console.log("loop stopped");
+
+var age=20;
+if(age>18){
+    console.log("<b>you are eligible to cast the vote</b>");
+}
+else{
+    console.log("<b>not eligible</b>");
+}
+
+var grade='A';
+console.log("Entering switch block<br/>");
+switch(grade){
+    case'A':console.log("Good job<br/>");
+    break;
+
+    case'B':console.log("well done<br/>");
+    break;
+
+    case'C':console.log("passed<br/>");
+    break;
+
+    case'D':console.log("needs improvement<br/>");
+    break;
+
+    default:console.log("unknown grade<br/>");
+}
+console.log("exiting switch block");
+
+function myFunction(){
+    alert("Hello World")
+}
+
+function sayHello(name,age){
+    console.log(name+"is"+age+"years old");
+}*/
+
+var res=mul(12,30);
+function mul(x,y){
+    return x*y;
+}
+console.log(res);
+
