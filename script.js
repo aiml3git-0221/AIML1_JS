@@ -99,7 +99,7 @@ function myFunction(){
 
 function sayHello(name,age){
     console.log(name+"is"+age+"years old");
-}*/
+}
 
 var res=mul(12,30);
 function mul(x,y){
@@ -107,3 +107,31 @@ function mul(x,y){
 }
 console.log(res);
 
+var add2=(a,b)=>{
+    console.log(a+b);
+};
+add2(102,20);
+
+var add3=(a,b)=>console.log(a+b);
+add3(30,20);
+
+var person={
+    name:'John Mac',
+    age:30,
+    isMarried:true,
+    address:{
+        street:'Vijay Nagar',
+        flatNO:201
+    }
+};
+console.log(person["address"],person["age"]);
+*/
+
+var person2=newObject();
+person2name="Krishnkant";
+person2age=20;
+person2isMarried=true;
+person2address={};
+person2address.street="nagar road";
+person2['address']['flatNO']=33;
+console.log()
