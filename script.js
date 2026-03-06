@@ -91,7 +91,7 @@ switch(grade){
 
     default:console.log("unknown grade<br/>");
 }
-console.log("exiting switch block");
+console.log("exiting switch block");*/
 
 function myFunction(){
     alert("Hello World")
@@ -125,7 +125,6 @@ var person={
     }
 };
 console.log(person["address"],person["age"]);
-*/
 
 var person2=newObject();
 person2name="Krishnkant";
