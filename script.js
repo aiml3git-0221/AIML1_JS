@@ -91,7 +91,7 @@ switch(grade){
 
     default:console.log("unknown grade<br/>");
 }
-console.log("exiting switch block");*/
+console.log("exiting switch block");
 
 function myFunction(){
     alert("Hello World")
@@ -133,4 +133,5 @@ person2isMarried=true;
 person2address={};
 person2address.street="nagar road";
 person2['address']['flatNO']=33;
-console.log()
+console.log()*/
+
